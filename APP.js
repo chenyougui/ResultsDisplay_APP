@@ -69,7 +69,7 @@ var S1_winter_VH = S1.filterDate('2018-12-01', '2019-03-01')
 
 
 
-///////结果
+///////Results
 var Forest = Forest.updateMask(Forest).visualize({ palette: 'green' });
 
 var LUCC_vis = {
@@ -120,7 +120,7 @@ var lucc_cla_point = LUCC_classify_points.style(styling);
 var fc_cla_point = FC_classify_points.style(styling);
 var fc_var_point = FC_verify_points.style(styling);
 
-////////// 展示
+////////// display
 var images = {
     'Study Area': studyarea,
     'S2_year': S2_year,
@@ -135,7 +135,7 @@ var images = {
 
 
 
-}; ////左边 
+}; ////left
 var images2 = {
 
     'Forest Area': Forest, //
@@ -154,7 +154,7 @@ var images2 = {
 
 
 
-}; ////右边
+}; ////right
 
 //print(images)
 var leftMap = ui.Map();
@@ -210,7 +210,7 @@ ui.root.widgets().reset([splitPanel]);
 var linker = ui.Map.Linker([leftMap, rightMap]);
 rightMap.style().set('cursor', 'crosshair');
 leftMap.setCenter(117.48, 26.77, 12);
-//////图标标题
+////// legend title
 var visLabels = {
     fontWeight: 'bold',
     fontSize: '16px',
