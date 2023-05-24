@@ -22,7 +22,7 @@ This app uses the method of uploading the data to be visualized into Cloud Asset
 
 The land cover  classification result codes: 1, 2, 3, 4, and 5 correspond to Cropland, Bare soil, Building, Forest, and Water, respectively.
 
-![1684932925619](image/README/1684932925619.png)
+![1684938339078](image/README/1684938339078.png)
 
 The dominant forest species codes are as follows: 1, 2, 3, 4, 5, 6, 7, and 8 correspond to CULA, PM, HB,
 SB, BB, EF, SH, and Others, respectively. CULA is the abbreviation for Chinese fir (Cunninghamia lanceolata). PM is the abbreviation for Pinus Masson. HB is the abbreviation for hard-leaved mixed forest (with hard-leaved tree species accounting for 65% or more of the total stocking). SB is the abbreviation for soft-leaved mixed forest (with soft-leaved tree species accounting for 65% or more of the total stocking). BB is the abbreviation for Bamboo. EF is the abbreviation for Economic forest. SH is the abbreviation for Shrubs. Others represent other tree species in mixed or pure forests.
@@ -40,7 +40,6 @@ Table 1 Abbreviations on the left of the map
 Table 2 Abbreviations on the right of the map
 
 ![1684933510041](image/README/1684933510041.jpg)
-
 
 ## Links
 
