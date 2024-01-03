@@ -221,7 +221,7 @@ var visLabels = {
     textAlign: 'left',
     stretch: 'horizontal'
 };
-var header = ui.Label('Classification results for land cover types, forest distribution and dominant tree species', { fontSize: '25px', fontWeight: 'bold', color: '4A997E' });
+var header = ui.Label('Classification results for land cover types, forest distribution and dominant woody plant species', { fontSize: '25px', fontWeight: 'bold', color: '4A997E' });
 var notes = ui.Label('Notes:', { fontSize: '12px', fontWeight: 'bold' })
 var notes2 = ui.Label('Use the map on the left to view the classification sample points and the classification source data. ' +
         'Use the map on the right to view the validation sample points and the classification results. ' +
@@ -251,7 +251,7 @@ var legendPanel = ui.Panel({
     },
 });
 var legendPanel_2 = ui.Panel({
-    widgets: [ui.Label("Dominant tree species", { fontSize: '15px', fontWeight: 'bold' })],
+    widgets: [ui.Label("Dominant plant species", { fontSize: '15px', fontWeight: 'bold' })],
     layout: ui.Panel.Layout.flow('vertical'),
     style: {
         position: 'bottom-right',
@@ -291,11 +291,11 @@ var names = ["CropLand-1",
     "Forest-4",
     "water-5",
 ];
-var names_2 = ["CULA-1",
-    "PM-2",
+var names_2 = ["CF-1",
+    "MP-2",
     "HB-3",
     "SB-4",
-    "BB-5",
+    "MF-5",
     "EF-6",
     "SH-7",
     "Others-8"

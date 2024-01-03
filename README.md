@@ -4,7 +4,7 @@
 
 Publishing an APP on GEE that displays classification results helps to visualize classification results and allows forest managers to develop forest management plans better.
 
-With the APP published by GEE, as shown in the figure below, the page is divided into three main parts: (A), (B), and (C).The (A) section contains the study area boundary, original data, and classified sample points, which can be viewed by clicking the selection button in the top left corner of the APP. The (B) section contains the validation sample points, land covers, and tree species classification results. Similarly, these can be viewed by clicking the selection button in the top right corner of the APP. In part (B), the mouse clicks anywhere in (B) to view the coordinates of this point and the best results of land cover classification and dominant tree species classification in (C). A sliding button between (A) and (B) can be dragged using the mouse to compare the accuracy of the classification results. Part (C) briefly introduces the APP and a legend of the classification results. The best results of the land cover classification and the dominant tree species classification can be downloaded by clicking the Download button.
+With the APP published by GEE, as shown in the figure below, the page is divided into three main parts: (a), (b), and (c).The (a) section contains the study area boundary, original data, and classified sample points, which can be viewed by clicking the selection button in the top left corner of the APP. The (b) section contains the validation sample points, land covers, and tree species classification results. Similarly, these can be viewed by clicking the selection button in the top right corner of the APP. In part (b), the mouse clicks anywhere in (b) to view the coordinates of this point and the best results of land cover classification and dominant tree species classification in (c). A sliding button between (a) and (b) can be dragged using the mouse to compare the accuracy of the classification results. Part (c) briefly introduces the APP and a legend of the classification results. The best results of the land cover classification and the dominant tree species classification can be downloaded by clicking the Download button.
 
 ![1684932766474](image/README/1684932766474.png)
 
@@ -24,8 +24,8 @@ The land cover  classification result codes: 1, 2, 3, 4, and 5 correspond to Cro
 
 ![1684938339078](image/README/1684938339078.png)
 
-The dominant forest species codes are as follows: 1, 2, 3, 4, 5, 6, 7, and 8 correspond to CULA, PM, HB,
-SB, BB, EF, SH, and Others, respectively. CULA is the abbreviation for Chinese fir (Cunninghamia lanceolata). PM is the abbreviation for Pinus Masson. HB is the abbreviation for hard-leaved mixed forest (with hard-leaved tree species accounting for 65% or more of the total stocking). SB is the abbreviation for soft-leaved mixed forest (with soft-leaved tree species accounting for 65% or more of the total stocking). BB is the abbreviation for Bamboo. EF is the abbreviation for Economic forest. SH is the abbreviation for Shrubs. Others represent other tree species in mixed or pure forests.
+The dominant forest species codes are as follows: 1, 2, 3, 4, 5, 6, 7, and 8 correspond to CF, MP, HB,
+SB, MF, EF, SH, and Others, respectively. CF is the abbreviation for Chinese fir (Cunninghamia lanceolata). MP is the abbreviation for Masson pine. HB is the abbreviation for hard-leaved mixed forest (with hard-leaved tree species accounting for 65% or more of the total stocking). SB is the abbreviation for soft-leaved mixed forest (with soft-leaved tree species accounting for 65% or more of the total stocking). MF is the abbreviation for Moso bamboo forest. EF is the abbreviation for Economic forest. SH is the abbreviation for Shrubs. Others represent other tree species in mixed or pure forests.
 
 ![1684840118771](image/README/1684840118771.png)
 
